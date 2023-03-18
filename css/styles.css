@@ -69,28 +69,53 @@ thead, th{
     left:0;
 }
 
+
 .submitted{
-    background-color:green;
-    padding:0.3rem 1rem;
+    background-color:rgb(20, 149, 20);
+    padding:0.3rem 0.8rem;
     border-radius:0.5rem;
+    margin-bottom: 0.3rem;
+    color:#ffffffd5;
 }
 
 /* tbody tr:hover{
     background-color: #FFF6;
 } */
 
-.btn{
+/* .btn{ */
     /* background-color: #EAF6F6; */
-    padding:0.5rem 0.7rem;
+    /* padding:0.5rem 0.7rem;  */
+    /* border-radius: 0.5rem;
+    border-style:none;
+    background-color: #2980B9; 
+    font-size: 0.9rem;
+    color:#FFFFFF;  */
+/* }  */
+/* 
+.btn:hover{ 
+    background-color:#3498DB; 
+    color:#FFFFFF; 
+} */
+
+.btn{
+    padding:0.5rem 0.6rem; 
     border-radius: 0.5rem;
     border-style:none;
-    background-color: #2980B9;
-    font-size: 0.9rem;
-    color:#FFFFFF;
+    font-size:0.9rem;
 }
 
-.btn:hover{
-    background-color:#3498DB;
+.btn2{
+    padding:0.5rem 0.6rem; 
+    border-radius: 0.5rem;
+    border-style:none;
+    background-color: #2980B9; 
+    font-size: 0.95rem;
+    color:#FFFFFF; 
+}
+
+.btn2:hover{
+    background-color:#3498D8;
+    color:#FFFFFF;
 }
 
 .footer{
@@ -98,7 +123,7 @@ thead, th{
     color:black;
     text-align:center;
     margin-top:15px;
-    padding:10px 20px;
+    padding:5px 20px;
     width:100%;
 }
 
