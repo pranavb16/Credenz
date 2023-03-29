@@ -113,6 +113,15 @@ thead, th{
     color:#FFFFFF; 
 }
 
+.btn3{
+    padding:0.5rem 0.6rem; 
+    border-radius: 0.5rem;
+    border-style:none;
+    background-color: #2980B9; 
+    font-size: 0.95rem;
+    color:#FFFFFF; 
+}
+
 .btn2:hover{
     background-color:#3498D8;
     color:#FFFFFF;
@@ -140,4 +149,40 @@ thead, th{
 
 tbody,tr:hover{
     background-color: #FFF6;
+}
+
+@media only screen and (max-width: 429px) {
+    a{
+        padding: 3px !important;
+    }
+
+    td, th{
+        padding: 5px;
+        text-align: center;
+        margin-left: 8%;
+    }
+
+    .table{
+        width: 100%;
+    }
+    
+    .submitted{
+        padding:0.3rem 0.4rem;
+        font-size:0.8rem;
+        margin-left:3%;
+    }
+
+    .btn3{
+        padding:0.3rem 0.4rem;
+        font-size:0.8rem;
+        margin-left:8%;
+    }
+
+    table{
+        margin:auto;
+    }
+
+    /* .modal-content{
+        height: 400px;
+    } */
 }
