@@ -7,19 +7,27 @@
 
 }
 
+.navbar-brand{
+    font-size:18px;
+}
+
+.nav-link{
+    font-size:15px;
+}
+
 body{
     /* position:relative; */
     background: url("../images/blue.jpeg") center / cover;
     /* background-color: #010B19; */
     min-height: 100vh;
-    display:flex;
+    /* display:flex; */
     justify-content: center;
     align-items:center;
 }
 
 table, th, td{
     border-collapse:collapse;
-    padding: 1rem 7rem;
+    padding: 0.8rem 7rem;
 }
 
 th{
@@ -67,6 +75,10 @@ th{
     visibility:visible;
 }
 
+.heading{
+    text-align: center;
+    font-size:23px;
+}
 
 thead, th{
     position:relative;
